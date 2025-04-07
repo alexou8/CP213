@@ -1,0 +1,53 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Zi Feng (Alex) Ou
+ID: 	 169025748      
+Email:   ouxx5748@mylaurier.ca 
+Version: 2025-03-02
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+Tasks 1 to 2
+-------------------------------------------------------
+Print Example 1 - People:
+
+Snord, Cranston
+
+Sharma, Priyanka: 7384737
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+----------------------------------------
+Print Example 2 - Sorted People:
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+Sharma, Priyanka: 7384737
+
+Snord, Cranston
+
+
+========================================
+Task 1 - Add CAS:
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+Sharma, Priyanka: 7384737
+
+Snord, Cranston
+-------------------------------------------------------
