@@ -1,0 +1,142 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Zi Feng (Alex) Ou
+ID: 	 169025748      
+Email:   ouxx5748@mylaurier.ca 
+Version: 2025-03-31
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+Tasks
+-------------------------------------------------------
+Assignment 5 Class Tests
+================================================================================
+Testing MenuItem
+----------------------------------------
+Test double Constructor:
+menuItem = new MenuItem("hot dog", 1.25);
+----------------------------------------
+menuItem.getListing():
+  {"hot dog"}: "hot dog"
+----------------------------------------
+menuItem.getPrice():
+  {1.25}: 1.25
+----------------------------------------
+menuItem.toString():
+  {"hot dog      $ 1.25"}: "hot dog      $ 1.25"
+----------------------------------------
+Test BigDecimal Constructor:
+menuItem = new MenuItem("hot dog", 1.25);
+----------------------------------------
+menuItem.getListing():
+  {"hot dog"}: "hot dog"
+----------------------------------------
+menuItem.getPrice():
+  {1.25}: 1.25
+----------------------------------------
+menuItem.toString():
+  {"hot dog      $ 1.25"}: "hot dog      $ 1.25"
+
+================================================================================
+Testing Menu
+----------------------------------------
+Menu menu = new Menu(fileScanner);
+----------------------------------------
+menu.size():
+  {7}: 7
+----------------------------------------
+menu.getItem(3):
+  {"fries        $ 1.75"}: "fries        $ 1.75"
+----------------------------------------
+menu.toString():
+1) hot dog      $ 1.25
+2) hamburger    $ 2.00
+3) cheeseburger $ 2.75
+4) fries        $ 1.75
+5) poutine      $ 3.75
+6) pizza        $10.00
+7) drink        $ 1.50
+
+----------------------------------------
+List of items:
+[hot dog      $ 1.25, fries        $ 1.75]
+Menu menuFromList = new Menu(items);
+menuFromList.toString():
+1) hot dog      $ 1.25
+2) fries        $ 1.75
+
+================================================================================
+Testing Order
+----------------------------------------
+hot dog        1 @ $ 1.25 = $  1.25
+
+Subtotal:                   $  1.25
+Taxes:                      $  0.16
+Total:                      $  1.41
+-------------------------------------------------------
+Welcome to WLU Foodorama!
+
+Menu:
+1) hot dog      $ 1.25
+2) hamburger    $ 2.00
+3) cheeseburger $ 2.75
+4) fries        $ 1.75
+5) poutine      $ 3.75
+6) pizza        $10.00
+7) drink        $ 1.50
+
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 1
+How many do you want? 2
+Command: 3
+How many do you want? 4
+Command: 1
+How many do you want? 3
+Command: 6
+How many do you want? what?
+Not a valid number
+Command: bad entry!
+Not a valid number
+
+Menu:
+1) hot dog      $ 1.25
+2) hamburger    $ 2.00
+3) cheeseburger $ 2.75
+4) fries        $ 1.75
+5) poutine      $ 3.75
+6) pizza        $10.00
+7) drink        $ 1.50
+
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 9
+
+Menu:
+1) hot dog      $ 1.25
+2) hamburger    $ 2.00
+3) cheeseburger $ 2.75
+4) fries        $ 1.75
+5) poutine      $ 3.75
+6) pizza        $10.00
+7) drink        $ 1.50
+
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 0
+----------------------------------------
+Receipt
+hot dog        2 @ $ 1.25 = $  2.50
+hot dog        3 @ $ 1.25 = $  3.75
+cheeseburger   4 @ $ 2.75 = $ 11.00
+
+Subtotal:                   $ 17.25
+Taxes:                      $  2.24
+Total:                      $ 19.49
+-------------------------------------------------------
