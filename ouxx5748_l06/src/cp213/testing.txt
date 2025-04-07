@@ -1,0 +1,41 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Zi Feng (Alex) Ou
+ID: 	 169025748      
+Email:   ouxx5748@mylaurier.ca 
+Version: 2025-03-09
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+Tasks 1 to 2
+-------------------------------------------------------
+Test scannerTest
+
+Enter an integer ("Quit" to stop): 5
+Enter an integer ("Quit" to stop): x
+That is not an integer!
+Enter an integer ("Quit" to stop): five
+That is not an integer!
+Enter an integer ("Quit" to stop): 3.3
+That is not an integer!
+Enter an integer ("Quit" to stop): 2
+Enter an integer ("Quit" to stop): Quit
+Total: 7
+
+Test stringPrinter
+*****
+
+getMessage:
+Enter a postive integer.
+
+toString:
+java.lang.Exception: Enter a postive integer.
+
+printStackTrace:
+java.lang.Exception: Enter a postive integer.
+	at cp213.Main.stringPrinter(Main.java:86)
+	at cp213.Main.main(Main.java:25)
+-------------------------------------------------------
