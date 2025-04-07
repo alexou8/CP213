@@ -1,0 +1,25 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Zi Feng (Alex) Ou
+ID: 	 169025748      
+Email:   ouxx5748@mylaurier.ca 
+Version: 2025-03-17
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+Tasks
+-------------------------------------------------------
+Push Me
+Slider: 50
+Textbox: Hello World!
+Spinner: February
+Spinner: January
+Radio Button: Star Trek
+Radio Button: Star Wars
+Checkbox: [Mustard]
+Checkbox: [Mustard, Onions]
+Checkbox: [Mustard, Onions, Ketchup]
+-------------------------------------------------------
