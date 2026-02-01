@@ -14,3 +14,7 @@ This repo contains labs and assignments demonstrating object-oriented design and
 - Inner classes 
 - GUI basics (Swing) 
 - Multithreading basics 
+
+## Academic Integrity
+
+This repository is shared for learning and portfolio purposes only. Please do not submit this work as your own.
